@@ -4,7 +4,7 @@ services:
   ubuntu16:
     build:
       context: ./docker
-      dockerfile: Dockerfile.ubuntu18.10
+      dockerfile: Dockerfile.ubuntu16.10
     container_name: c1
     volumes:
       - ./data:/data
